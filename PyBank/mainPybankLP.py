@@ -14,7 +14,7 @@ grtsdecrease = ['',9999999999]
 
 
 #open file path
-file = r"PyBank\Resources\budget_data.csv"
+file = r"Python---challenge\PyBank\Resources\budget_data.csv"
 #open file in read mode
 with open (file, 'r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter= ",")
